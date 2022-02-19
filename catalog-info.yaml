@@ -13,4 +13,4 @@ spec:
   type: sms
   lifecycle: dev
   owner: devsecops
-  system: python
+  system: java
