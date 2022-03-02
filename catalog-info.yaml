@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: twilio-java
+  title: Java Twilio Library
   description: A Java library for communicating with the Twilio API and generating TwiML.
   tags: 
     - java
@@ -9,8 +10,9 @@ metadata:
     - twilio
   annotations:
     github.com/project-slug: marvin-corea-cvshealth/twilio-java
+    backstage.io/techdocs-ref: dir:.
 spec:
-  type: sms
-  lifecycle: dev
+  type: library
+  lifecycle: experimental
   owner: devsecops
-  system: java
+  system: twilio
